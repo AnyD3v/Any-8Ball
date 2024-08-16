@@ -19,13 +19,21 @@ M5Stack library for MicroPython
 Installation
 Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/ANY8BALL.git
-Upload the Code to Your M5StickC PLUS 2
+Install from M5Burner
+
+Refer to M5Stick C Plus 2 links for the M5Burner app for Linux, MacOS and Windows. This is the official tool to install UIFlow and other official firmware. Latest updates will be there and UIFlow.
+
+1. Launch M5Burner
+2. Select "StickC" from the menu on the left.
+3. Use the search at the top of the app to look for "ANy-*Ball". Official upload is by "AnyDev".
+4.Click Download
+5. Click Burn
+
 
 Also available on UIFLOW 2.0
 https://uiflow2.m5stack.com/?pkey=0a4f9f4186bd408cb9b7e4553cfd5894
+
+
 
 Add Resources
 
@@ -35,6 +43,8 @@ Usage
 Power on the M5StickC PLUS 2.
 Press the M5 button to display a random fortune.
 The fortune will be shown for 2 seconds, after which it will clear automatically.
+
+NOTE: UIFLOW version has battery display, M5launcher version currently does not but has dim display using Button B. Both versions are currently being developed to match and include more features in version 1.1.
 
 Code Explanation
 setup(): Initializes the UI elements, including the fortune display and battery level.
