@@ -25,7 +25,7 @@ Refer to M5Stick C Plus 2 links for the M5Burner app for Linux, MacOS and Window
 
 1. Launch M5Burner
 2. Select "StickC" from the menu on the left.
-3. Use the search at the top of the app to look for "ANy-*Ball". Official upload is by "AnyDev".
+3. Use the search at the top of the app to look for "ANy-*Ball". Official upload is by "AnyD3v".
 4.Click Download
 5. Click Burn
 
